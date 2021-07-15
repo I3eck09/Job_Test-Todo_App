@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #313131;
+}
+
+.TodoList-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 25%;
+  height: 60vh;
+  background-color: #414141;
+  border-radius: 20px;
+
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  height: 20%;
+  font-size: 30px;
+  font-weight: bolder;
+  color: #FFFFFF
+}
+
+.input-todo, .edit-todo {
+  width: 60%;
+  height: 25px;
+  border: 0;
+  outline: 0;
+  padding: 0 10px;
+  border-radius: 5px;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.btn-add {
+  width: 50px;
+  background-color: lightgreen;
+  outline: 0;
+  border: 0;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-edit {
+  margin-right: 10px;
+  width: 50px;
+  height: 30px;
+  background-color: lightskyblue;
+  outline: 0;
+  border: 0;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-delete {
+  width: 50px;
+  height: 30px;
+  background-color: red;
+  outline: 0;
+  border: 0;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-update {
+  width: 50px;
+  height: 30px;
+  background-color: lightgreen;
+  outline: 0;
+  border: 0;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-cancel {
+  width: 50px;
+  height: 30px;
+  background-color: lightgray;
+  outline: 0;
+  border: 0;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.content {
+  margin: 30px ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  color: #FFFFFF;
+  overflow: auto;
+}
+
+.todo-item {
+  width: 70%;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.todo-name {
+  flex: 0.5;
+  list-style: none;
+}
+
+.todo-action {
+  flex: 0.5;
+}
+
+
+
+
+
